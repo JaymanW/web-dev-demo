@@ -1,0 +1,19 @@
+.menu-active {
+    position: absolute;
+    right: 0px;
+    top: 15vh;
+    height: 85vh;
+
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.5s ease-in;
+    padding-bottom: 4rem;
+}
+
+.burger {
+    cursor: pointer;
+}

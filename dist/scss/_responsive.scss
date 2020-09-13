@@ -1,0 +1,538 @@
+@media only screen and (min-width: 480px) {
+    /* GLOBAL */
+    .blue-hr {
+        width: 10vw;
+        height: 4px;
+    }
+    /*********************************************/
+    
+    /* NAV */
+    nav {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    /*********************************************/
+    /* LANDING */
+    .landing-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .landing-title {
+        font-size: 2.6rem;
+    }
+
+    #landing .btn {
+        margin-top: 3rem;
+    }
+    /*********************************************/
+    /* FEATURED HOMES */
+    .featured-subtitle {
+        font-size: 1rem;
+    }
+
+    .featured-title {
+        font-size: 1.6rem;
+    }
+
+    #featured-homes .blue-hr {
+        margin-top: 2rem;
+    }
+
+    .featured-card-cnt {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .featured-card {
+        max-width: 300px;
+        margin: 2rem 0.25rem;
+    }
+    /*********************************************/
+
+    /* ABOUT */
+    .about-img {
+        width: 40%;
+    }
+
+    .about-text hr {
+        width: 10%;
+        height: 3px;
+    }
+    /*********************************************/
+
+    /* TESTIMONIALS */
+    .testimonials-title {
+        font-size: 2rem;
+    }
+
+    .testimonials-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .carousel-inner {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .carousel-item {
+        padding: 2rem 15vw;
+    }
+
+    .ratings-cnt {
+
+        &-item:nth-child(2) {
+            padding-top: 2rem;
+        }
+    }
+    /*********************************************/
+    /* CONTACT */
+
+    #contact {
+        padding-bottom: 3rem;
+    }
+
+    .contact-cnt {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        &-item {
+            padding: 0 1rem;
+        }
+    }
+
+    .contact-subtitle {
+        margin-top: 3rem;
+    }
+
+    .contact-form-cnt {
+
+
+        & form {
+            max-width: 430px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            & input[type=text], select {
+                width: 47.5%;
+            }
+
+            & input[type=submit] {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    /*********************************************/
+    /* FOOTER */
+
+    .footer-cnt {
+        padding-top: 5rem;
+    }
+
+    .footer-socials-cnt {
+        max-width: 130px;
+    }
+    
+    .footer-nav {
+        padding-top: 4rem;
+
+        & a {
+            font-size: 1.2rem;
+        }
+    }
+    // 160
+
+    .footer-location-cnt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & .footer-location-content {
+            text-align: right;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            & > p {
+                font-size: 1.2rem;
+            }
+
+            & > div {
+                font-size: 1.1rem;
+            }
+        }
+        
+        & > img {
+            max-width: 250px;
+            margin: 0;
+            padding-left: 1rem;
+            padding-top: 0;
+        }
+    }
+
+    .credits {
+        font-size: 1rem;
+    }
+    /*********************************************/
+}
+
+@media only screen and (min-width: 768px) {
+    /* GLOBAL */
+
+    .margin-top-1 {
+        margin: 0;
+    }
+
+    /*********************************************/
+    
+    /* NAV */
+        .logo-primary {
+            font-size: 1.6rem;
+            font-weight: 700;
+
+            span {
+                font-weight: 100;
+            }
+        }
+    
+        .menu {
+            display: flex;
+            
+            a {
+                color: #eee;
+                font-weight: 600;
+                font-size: 0.9rem;
+            }
+
+            &-item:nth-child(n+2) {
+                padding-left: 1rem;
+            }
+        }
+
+        .menu-active {
+            position: static;
+            height: auto;
+            width: auto;
+            background: transparent;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 0;
+        }
+
+        .burger {
+            display: none;
+        }
+    /*********************************************/
+    /* LANDING */
+        .landing-subtitle {
+            padding-bottom: 1rem;
+        }
+
+        #landing .btn {
+            font-weight: 400;
+            letter-spacing: 0.1rem;
+            padding: 0.75rem 2rem;
+        }
+    /*********************************************/
+    /* FEATURED HOMES */
+        .featured-subtitle {
+            margin-bottom:  1rem;
+        }
+    /*********************************************/
+    /* ABOUT */
+        .about-cnt {
+            display: flex;
+            flex-direction: row;
+            padding: 2rem 2rem;
+        }
+
+        .about-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 3rem;
+            text-align: left;
+            width: 45%;
+
+            &-subtitle {
+                font-size: 0.8rem;
+            }
+
+            & hr {
+                margin: 1rem auto 1rem 0;
+                width: 10vw;
+                height: 4px;
+                
+            }
+
+            &-desc {
+                font-size: 0.8rem;
+            }
+            
+        }
+
+        #about .btn {
+            width: 25vw;
+            max-width: 200px;
+        }
+    /*********************************************/
+    /* TESTIMONIALS */
+
+    .ratings-cnt {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &-item:nth-child(2) {
+            padding: 0 0 0 1rem;
+        }
+    }
+
+    .carousel-inner {
+        min-height: 40vh;
+    }
+
+    #carouselExampleControls {
+        margin-top: 0;
+    }
+
+    /*********************************************/
+    /* BUY OR SELL */
+    .buy-cnt {
+        display: flex;
+        flex-direction: row;
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        &-img {
+            width: 50%;
+            height: 50%;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50vw;
+            padding: 1rem 2rem;
+            text-align: left;
+
+            &-title {
+                font-size: 1.5rem;
+            }
+
+            &-desc {
+                font-size: 0.8rem;
+                width: 100%;
+                margin: 0;
+            }
+
+            & hr {
+                margin: 1rem auto 1rem 0;
+            }
+
+            & .btn {
+                margin-top: 1rem;
+                font-size: 0.8rem;
+                max-width: 25vw;
+            }
+        }
+
+
+    }
+    /*********************************************/
+    /* CONTACT */
+
+    #contact hr {
+        margin-bottom: 4rem;
+    }
+
+    .contact-cnt {
+
+        & img {
+            margin-bottom: 1rem;
+        }
+
+        & .subtle {
+            font-size: 0.9rem;
+        }
+    
+        & .bold {
+            font-size: 0.9rem;
+        }
+    }
+
+    /*********************************************/
+    /* FOOTER */
+    .gallery-cnt img {
+        width: 19.8vw;
+    }
+
+    .footer-cnt {
+        padding-top: 3rem;
+    }
+
+    .footer-cnt-content {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        &-logo > p {
+            font-size: 1.3rem;
+        }
+
+        &-logo .footer-socials-cnt {
+            width: 90%;
+
+            & img {
+                width: 13%;
+            }
+        }
+    }
+
+    .footer-nav {
+        padding: 0;
+
+        & a {
+            font-size: 0.8rem;
+        }
+    }
+
+    .footer-location-cnt {
+        padding: 0;
+
+        & .footer-location-content {
+            height: 90px;
+
+            & p {
+                font-size: 0.8rem;
+            }
+
+            & > div {
+                font-size: 0.9rem;
+            }
+        }
+
+        & .footer-location-header {
+            font-size: 0.5rem;
+        }
+    }
+
+    .footer-location-img {
+        width: 200px;
+    }
+
+    .credits {
+        font-size: 0.8rem;
+    }
+    /*********************************************/
+}
+
+@media only screen and (min-width: 1100px) {
+    /* NAV */
+    .logo-primary {
+        font-size: 2rem;
+    }
+
+    .menu-item:nth-child(n+2) {
+        padding-left: 2rem;
+    }
+    /*********************************************/
+    /* LANDING */
+    .landing-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .landing-title {
+        font-size: 3rem;
+    }
+
+    #landing .btn {
+        padding: 0.85rem 2.5rem;
+    }
+    /*********************************************/
+    /* FEATURED HOMES */
+    #featured-homes {
+        padding-top: 3.5rem;
+    }
+    /*********************************************/
+    /* ABOUT */
+    .about-cnt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-img {
+        width: 25%;
+    }
+
+    .about-text {
+        margin: 0 0 0 3rem;
+        width: 40%;
+
+        &-title {
+            font-size: 2.5rem;
+        }
+
+        &-subtitle {
+            font-size: 0.9rem;
+        }
+
+        & hr {
+            width: 3vw;
+            margin: 2rem 0;
+        }
+
+        &-desc {
+            font-size: 1rem;
+        }
+    }
+    /*********************************************/
+    /* BUY OR SELL */
+    .buy-cnt-content {
+        padding: 2rem 0 2rem 4rem;
+
+        &-title {
+            font-size: 2rem;
+
+            span {
+                font-weight: 600;
+            }
+        }
+
+        &-desc {
+            font-size: 1rem;
+            width: 70%;
+        }
+
+        & .btn {
+            font-size: 1rem;
+            width: 35%;
+        }
+
+        .extra-width {
+            width: 60%;
+        }
+    }
+    /*********************************************/
+}
+
+// 480px
+// 768px
+// 992px
+// 1200px
+
+/* LANDING */
+
+/*********************************************/
